@@ -1224,3 +1224,35 @@
     z-index: 2;
   }
   
+#countdown-container {
+  text-align: center;
+}
+
+.countdown-title {
+  color: orange;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+#countdown {
+  color: orange;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulsate {
+  animation: pulse 1s infinite;
+}
